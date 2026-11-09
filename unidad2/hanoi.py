@@ -1,4 +1,4 @@
-def mover_torre(altura, origen, destino, intermedio):
+ def mover_torre(altura, origen, destino, intermedio):
     if altura >= 1:
         # 1. Mover n-1 discos de origen a intermedio
         mover_torre(altura - 1, origen, intermedio, destino)
